@@ -5,7 +5,7 @@ AS A developer
 I WANT to create notes or code snippets with or without an internet connection
 SO THAT I can reliably retrieve them for later use
 
-##Acceptance Criteria
+## Acceptance Criteria
 GIVEN a text editor web application
 WHEN I open my application in my editor
 THEN I should see a client server folder structure
