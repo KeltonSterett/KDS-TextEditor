@@ -20,6 +20,7 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
+        title: 'JATE',
       }),
       new WebpackPwaManifest({
         name:'JATE',
@@ -27,8 +28,8 @@ module.exports = () => {
         description: 'JATE is a Text Editor',
         background_color: '#ffffff',
         theme_color: '#ffffff',
-        start_url: '/',
-        publicPath: '/',
+        start_url: './',
+        publicPath: './',
         fingerprints: false,
         inject: true,
         icons: [
